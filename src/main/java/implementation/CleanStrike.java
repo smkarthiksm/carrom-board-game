@@ -10,6 +10,7 @@ import model.Turn;
 import java.util.ArrayList;
 
 public class CleanStrike implements Game {
+    
     public static int noOfPlayableCoins = 10;
 
     /**
@@ -117,5 +118,4 @@ public class CleanStrike implements Game {
             throw new ExceptionHandler(ApplicationConstants.UNABLE_TO_PLAY_GAME);
         }
     }
-
 }
