@@ -1,17 +1,9 @@
 package model;
 
-public class RedStrike extends Turn {
+public class RedStrike extends StrikeType {
 
     public RedStrike() {
         this.points = 3;
-        this.canPlayNext = true;
-    }
-
-    @Override
-    public String toString() {
-        return "MultiStrike{" +
-                "points=" + points +
-                ", canPlayNext=" + canPlayNext +
-                '}';
+        this.noOfPlayableCoins = 1;
     }
 }
